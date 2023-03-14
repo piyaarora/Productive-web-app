@@ -1,5 +1,5 @@
 # Productive
-A small application, having some amazing features to increase productivity.
+A small web app, having some amazing utilities to increase productivity.
 
 ### Packages/Libraries Used
 * Tailwind CSS
