@@ -1,0 +1,180 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+
+@media screen and (max-width:800px) {
+  .sidebar {
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center,
+.e-quick-popup-wrapper.e-device {
+  z-index: 1000000 !important;
+}
+
+
+svg {
+  cursor: pointer;
+}
+
+.filler-line {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 15px 60px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.main__section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__section>div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__section--icons {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main__section--icons>div {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.main__section--icons>div>div {
+  padding: 15px;
+}
+
+.main__section--icons .btn-restart {
+  padding: 15px;
+
+}
+
+.configure__section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.configure__section--box {
+  padding: 45px;
+  width: 40vw;
+}
+
+
+.configure__section--box-upper {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.configure__section--form {
+  margin-top: 3rem;
+}
+
+.configure__section--form label {
+  padding: 15px 0;
+}
+
+.configure__section--form-btn {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+input,
+select {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #000;
+  padding: 15px;
+  color: #000;
+}
+
+option {
+  color: #eeeeff;
+  background-color: #18152B;
+  margin: 5px 0;
+  padding: 20px;
+  border: none;
+}
+
+
+.base__timer {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.base__timer--svg {
+  fill: none;
+  stroke: none;
+  /* Flips the svg and makes the animation to move left-to-right */
+  transform: scaleX(-1);
+}
+
+.base__timer--path-elapsed {
+  stroke-width: 5px;
+  fill: none;
+}
+
+.base__timer--label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.base__timer--label h1 {
+  margin: 30px 0px 30px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.base__timer--label p {
+  color: #000;
+  text-align: center;
+}
